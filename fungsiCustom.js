@@ -75,19 +75,6 @@ const bacaData = function (fnCallback) {
   }
 };
 
-// function fnCallback(err, data) {
-//   if (err) {
-//     console.log(`Terdapat Error: ${err}`);
-//   } else {
-//     return data;
-//   }
-//   /*fnCallback ini sendiri memiliki 2 parameter:
-//   - `err` => error yang dapat ditemukan
-//   - `data` => hasil dari proses baca file json (hasilAkhir)
-//       - didapat dengan menggabungkan ketiga hasil yang ditemukan dari data1, data2, dan data3 kemudian dijadikan sebagai array of string
-//       - Contoh dari hasil di atas, berdasar data1.json, data2.json, dan data3.json, `data`-nya adalah `['dunia', 'world', 'sekai']`*/
-// }
-
 // ! JANGAN DIMODIFIKASI
 module.exports = {
   modifyFile1,
